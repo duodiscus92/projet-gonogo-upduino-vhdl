@@ -1,0 +1,22 @@
+#Start recording tcl command: 9/6/2022 06:47:35
+#Project Location: C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd; Project name: gonogo_upduino_vhd
+prj_open "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/gonogo_upduino_vhd.rdf"
+prj_run PAR -impl impl_2
+prj_run Export -impl impl_2
+prj_run PAR -impl impl_2
+prj_run Export -impl impl_2
+launch_programmer_prj "C:/lscc/radiant/3.2"
+launch_programmer_prj "C:/lscc/radiant/3.2"
+prj_run PAR -impl impl_2
+prj_run Export -impl impl_2
+prj_run PAR -impl impl_2
+prj_run Export -impl impl_2
+prj_run PAR -impl impl_2
+prj_run Export -impl impl_2
+prj_run PAR -impl impl_2
+prj_run Export -impl impl_2
+prj_run PAR -impl impl_2
+prj_run Export -impl impl_2
+prj_run PAR -impl impl_2
+prj_run Export -impl impl_2
+#Stop recording: 9/6/2022 11:07:25

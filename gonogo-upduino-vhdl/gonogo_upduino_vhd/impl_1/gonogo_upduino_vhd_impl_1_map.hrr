@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell gonogo
+   Instance path: gonogo
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        106        100.0
+                                 IOBUF	         19        100.0
+                                PFUREG	         45        100.0

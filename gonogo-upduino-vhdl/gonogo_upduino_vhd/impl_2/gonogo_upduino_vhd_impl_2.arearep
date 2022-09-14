@@ -1,0 +1,12 @@
+----------------------------------------------------------------------
+Report for cell gonogo.TECH
+Register bits:  61 of 5280 (1.155%)
+I/O cells:      34
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        30          100.0
+                            FD1P3XZ        61          100.0
+                                 IB        29          100.0
+                               LUT4        95          100.0
+                                 OB         5          100.0
+                              TOTAL       220

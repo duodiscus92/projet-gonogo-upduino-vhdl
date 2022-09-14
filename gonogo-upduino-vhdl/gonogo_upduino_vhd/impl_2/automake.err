@@ -1,0 +1,2 @@
+ERROR - c:/users/duodi/documents/personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/impl_2/source/gonogovhdl.vhd(28): syntax error near ). VHDL-1261
+ERROR - c:/users/duodi/documents/personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/impl_2/source/gonogovhdl.vhd(107): ledsecond is not declared. VHDL-1241

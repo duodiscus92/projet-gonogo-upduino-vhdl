@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="3.2.0.18.0" title="gonogo_upduino_vhd" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="impl_2">
+    <Options/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="gonogo"/>
+        <Source name="../../../altera/projets/gonogo-vhdl/gonogovhdl.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="gonogo"/>
+        </Source>
+        <Source name="gonogo_upduino_vhd.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Implementation title="impl_2" dir="impl_2" description="impl_2" synthesis="lse" default_strategy="Area">
+        <Options def_top="gonogo"/>
+        <Source name="impl_2/source/gonogovhdl.vhd" type="VHDL" type_short="VHDL">
+            <Options lib="work" top_module="gonogo"/>
+        </Source>
+        <Source name="impl_2/source/gonogo_upduino_vhd.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="source/impl_2.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="gonogo_upduino_vhd1.sty"/>
+</RadiantProject>

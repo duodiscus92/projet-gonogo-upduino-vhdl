@@ -1,0 +1,33 @@
+#Start recording tcl command: 9/2/2022 14:10:06
+#Project Location: C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd; Project name: gonogo_upduino_vhd
+prj_create -name "gonogo_upduino_vhd" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_add_source "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/altera/projets/gonogo-vhdl/gonogovhdl.vhd"
+prj_save 
+prj_run Synthesis -impl impl_1
+prj_add_source "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/gonogo_upduino_vhd.pdc"
+prj_enable_source "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/gonogo_upduino_vhd.pdc"
+prj_run Synthesis -impl impl_1
+prj_run Map -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1 -forceAll
+prj_run Synthesis -impl impl_1
+prj_run Synthesis -impl impl_1 -forceAll
+prj_run Synthesis -impl impl_1
+prj_create_impl "impl_2" -dir "impl_2" -strategy "Area" -synthesis "lse"
+file copy -force -- "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/altera/projets/gonogo-vhdl/gonogovhdl.vhd" "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/gonogo_upduino_vhd.pdc" "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/impl_2/source"
+prj_add_source  -impl "impl_2" -work "work" "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/impl_2/source/gonogovhdl.vhd"
+prj_add_source  -impl "impl_2" "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/impl_2/source/gonogo_upduino_vhd.pdc"
+prj_activate_impl "impl_2"
+prj_run Synthesis -impl impl_2
+prj_run Synthesis -impl impl_2
+prj_run Map -impl impl_2
+prj_run Map -impl impl_2 -forceAll
+prj_run Map -impl impl_2
+prj_run PAR -impl impl_2
+prj_run Export -impl impl_2
+launch_programmer_prj "C:/lscc/radiant/3.2"
+launch_programmer_prj "C:/lscc/radiant/3.2"
+launch_programmer_prj "C:/lscc/radiant/3.2"
+#Stop recording: 9/2/2022 18:09:26

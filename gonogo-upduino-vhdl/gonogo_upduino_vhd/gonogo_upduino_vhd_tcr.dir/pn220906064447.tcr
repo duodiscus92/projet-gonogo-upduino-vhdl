@@ -1,0 +1,13 @@
+#Start recording tcl command: 9/6/2022 06:35:11
+#Project Location: C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd; Project name: gonogo_upduino_vhd
+prj_open "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/gonogo_upduino_vhd.rdf"
+prj_clone_impl  "impl_3" -dir "impl_3" -impl "impl_2"
+prj_remove_impl "impl_3"
+prj_create_impl "impl_3" -dir "impl_3" -strategy "Area" -synthesis "lse"
+file copy -force -- "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/impl_2/source/gonogovhdl.vhd" "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/source/impl_2.xcf" "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/impl_3/source"
+prj_add_source  -impl "impl_3" -work "work" "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/impl_3/source/gonogovhdl.vhd"
+prj_add_source  -impl "impl_3" "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/impl_3/source/gonogo_upduino_vhd.pdc" "C:/Users/duodi/Documents/Personnel/electronique/fpga-cpld/lattice/gonogo-upduino-vhdl/gonogo_upduino_vhd/impl_3/source/impl_2.xcf"
+prj_run Synthesis -impl impl_2
+prj_run Map -impl impl_2
+prj_run PAR -impl impl_2
+#Stop recording: 9/6/2022 06:44:47

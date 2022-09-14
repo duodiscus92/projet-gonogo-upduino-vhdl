@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Area">
+        <Milestone name="Export" build_result="2" build_time="1663041602">
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1663041602"/>
+            <Task name="IBIS" build_result="2" update_result="0" update_time="1663041603"/>
+            <Task name="TimingSimFileVlg" build_result="2" update_result="0" update_time="1663041606"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1663041583">
+            <Task name="Map" build_result="2" update_result="0" update_time="1663041583"/>
+            <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1663041596">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1663041596"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1663041599"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1663041581">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1663041581"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1663041599"/>
+            <Task name="SynTrace" build_result="0" update_result="3" update_time="0"/>
+            <Task name="SynVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Report name="IBIS/gonogo_upduino_vhd_impl_2.ibs" last_build_time="1663041603" last_build_size="65069"/>
+        <Report name="gonogo_upduino_vhd_impl_2.bgn" last_build_time="1663041602" last_build_size="1106"/>
+        <Report name="gonogo_upduino_vhd_impl_2.bin" last_build_time="1663041602" last_build_size="104156"/>
+        <Report name="gonogo_upduino_vhd_impl_2.lsedata" last_build_time="0" last_build_size="0"/>
+        <Report name="gonogo_upduino_vhd_impl_2.twr.html" last_build_time="1663041599" last_build_size="12984"/>
+        <Report name="gonogo_upduino_vhd_impl_2.udb" last_build_time="1663041596" last_build_size="25215"/>
+        <Report name="gonogo_upduino_vhd_impl_2_map.udb" last_build_time="1663041583" last_build_size="16006"/>
+        <Report name="gonogo_upduino_vhd_impl_2_rtl.udb" last_build_time="1663041578" last_build_size="7821"/>
+        <Report name="gonogo_upduino_vhd_impl_2_syn.udb" last_build_time="1663041581" last_build_size="9191"/>
+        <Report name="gonogo_upduino_vhd_impl_2_vo.sdf" last_build_time="1663041606" last_build_size="102701"/>
+        <Report name="gonogo_upduino_vhd_impl_2_vo.vo" last_build_time="1663041606" last_build_size="107315"/>
+    </Strategy>
+</BuildStatus>
