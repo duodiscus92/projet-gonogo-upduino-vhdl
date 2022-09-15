@@ -1,0 +1,8 @@
+---------------------------------------------------
+Report for cell blinky
+   Instance path: blinky
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        181        100.0
+                                 IOBUF	         33        100.0
+                                PFUREG	         60        100.0

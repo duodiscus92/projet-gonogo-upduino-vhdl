@@ -1,0 +1,1 @@
+ERROR - The pin [32] is assigned to port [sw_go[9]] and cannot be assigned to port [sw_nogo[9]]. Change the pin's assignment.

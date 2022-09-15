@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildStatus>
+    <Strategy name="Area">
+        <Milestone name="Export" build_result="2" build_time="1663251924">
+            <Task name="Bitgen" build_result="2" update_result="0" update_time="1663251924"/>
+            <Task name="IBIS" build_result="2" update_result="0" update_time="1663251925"/>
+            <Task name="TimingSimFileVlg" build_result="2" update_result="0" update_time="1663251926"/>
+        </Milestone>
+        <Milestone name="Map" build_result="2" build_time="1663251911">
+            <Task name="Map" build_result="2" update_result="0" update_time="1663251911"/>
+            <Task name="MapTrace" build_result="0" update_result="2" update_time="1663251276"/>
+        </Milestone>
+        <Milestone name="PAR" build_result="2" build_time="1663251919">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1663251919"/>
+            <Task name="PARTrace" build_result="2" update_result="0" update_time="1663251922"/>
+            <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
+        </Milestone>
+        <Milestone name="Synthesis" build_result="2" build_time="1663251149">
+            <Task name="Lattice_Synthesis" build_result="2" update_result="0" update_time="1663251149"/>
+            <Task name="LSE_Compile" build_result="2" update_result="0" update_time="1663251165"/>
+            <Task name="SynTrace" build_result="0" update_result="2" update_time="1663251052"/>
+            <Task name="SynVerilogSimFile" build_result="0" update_result="2" update_time="1663251052"/>
+        </Milestone>
+        <Report name="IBIS/gonogo_upduino_vhd_verilog.ibs" last_build_time="1663251924" last_build_size="55568"/>
+        <Report name="gonogo_upduino_vhd_verilog.bgn" last_build_time="1663251924" last_build_size="1109"/>
+        <Report name="gonogo_upduino_vhd_verilog.bin" last_build_time="1663251924" last_build_size="104156"/>
+        <Report name="gonogo_upduino_vhd_verilog.lsedata" last_build_time="0" last_build_size="0"/>
+        <Report name="gonogo_upduino_vhd_verilog.twr.html" last_build_time="1663251922" last_build_size="12986"/>
+        <Report name="gonogo_upduino_vhd_verilog.udb" last_build_time="1663251919" last_build_size="27444"/>
+        <Report name="gonogo_upduino_vhd_verilog_map.udb" last_build_time="1663251911" last_build_size="16933"/>
+        <Report name="gonogo_upduino_vhd_verilog_rtl.udb" last_build_time="1663251146" last_build_size="7852"/>
+        <Report name="gonogo_upduino_vhd_verilog_syn.udb" last_build_time="1663251148" last_build_size="10127"/>
+        <Report name="gonogo_upduino_vhd_verilog_vo.sdf" last_build_time="1663251926" last_build_size="107556"/>
+        <Report name="gonogo_upduino_vhd_verilog_vo.vo" last_build_time="1663251926" last_build_size="116864"/>
+    </Strategy>
+</BuildStatus>
